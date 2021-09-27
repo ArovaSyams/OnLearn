@@ -1,0 +1,13 @@
+@media (min-width: 1024px) {
+    .filter {
+        width: 276px;
+    }
+    .card-vid {
+        width: 500px;
+    }
+}
+@media (min-width: 768px) {
+    .rating-card {
+        top: 530px;
+    }   
+}

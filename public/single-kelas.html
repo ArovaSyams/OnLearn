@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="assets/img/favicon.png" rel="icon">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles-own.css">
+    <link rel="stylesheet" href="assets/vendor/aos/aos.css">
+    <title>Belajar Memulai Framework Laravel 8 Pemula - OnLearn</title>
+</head>
+<body class="bg-bluegray-100 font-pop text-gray-900">
+    <nav id="navbar" class="h-nav overflow-hidden fixed w-full items-center z-10 font-pop shadow-md bg-white" style="transition: height 0.5s ease-in-out; ">
+        <div class="flex justify-between lg:px-24 px-5 py-4">
+            <div class="mt-1 lg:text-3xl text-2xl font-bold text-indigo-700">
+                <a href="#">OnLearn</a>
+            </div>
+            <div id="nav-list" class="lg:block hidden">
+                <ul class="flex font-medium items-center">
+                    <li class="mx-5 text-gray-800 hover:text-indigo-600 duration-200 cursor-pointer"><a href="index.html">Beranda</a></li>
+                    <li class="mx-5 font-semibold text-indigo-600 hover:text-indigo-600 duration-200 cursor-pointer"><a href="kelas.html">Kelas</a></li>
+                    <li class="mx-5 text-gray-800 hover:text-indigo-600 duration-150 cursor-pointer"><a href="pricing.html" >Berlangganan</a></li>
+                    <li class="mx-5 text-gray-800 hover:text-indigo-600 duration-200 cursor-pointer"><a href="community.html">Komunitas</a></li>
+                    <button type="button" class="mr-2 ml-8 px-6 py-2 bg-white border border-indigo-600 hover:bg-indigo-600 hover:text-white duration-200 rounded-md items-center text-indigo-600 font-semibold">Masuk</button>
+                    <button type="button" class="ml-2 px-6 py-2 bg-indigo-600 hover:bg-indigo-800 duration-200 rounded-md items-center text-white font-semibold">Daftar</button>
+                </ul>
+            </div>
+            <div id="toggle-nav" class="mt-3 mr-5 lg:hidden block">
+                <img src="assets/img/icon/dropdown.svg" width="20px" alt="">
+            </div>
+        </div>
+        <div id="listnav-toggle" class="mt-5">
+            <ul class=" font-medium items-center">
+                <li class="mx-5 mb-5 font-semibold text-indigo-600 hover:text-indigo-600 duration-200 cursor-pointer"><a href="index.html">Beranda</a></li>
+                <li class="mx-5 mb-5 text-gray-800 hover:text-indigo-600 duration-200 cursor-pointer"><a href="kelas.html">Kelas</a></li>
+                <li class="mx-5 mb-5 text-gray-800 hover:text-indigo-600 duration-150 cursor-pointer"><a href="pricing.html" >Berlangganan</a></li>
+                <li class="mx-5 mb-5 text-gray-800 hover:text-indigo-600 duration-200 cursor-pointer"><a href="community.html">Komunitas</a></li>
+                <div class="mx-5 ">
+                    <button type="button" class="block w-full px-6 py-2 bg-white border border-indigo-600 hover:bg-indigo-600 hover:text-white duration-200 rounded-md items-center text-indigo-600 font-semibold">Masuk</button>
+                    <button type="button" class="block w-full mt-3 px-6 py-2 bg-indigo-600 hover:bg-indigo-800 duration-200 rounded-md items-center text-white font-semibold">Daftar</button>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <div class="relative">
+                <div>
+                    <img src="assets/img/about-head.jpg" class="object-cover w-full h-80" alt="">
+                </div>
+                <div class=" absolute lg:top-64 top-24 lg:left-24 left-5 lg:right-24 right-5 flex flex-col lg:flex-row">
+                    <div class="lg:w-80 w-full lg:h-80 h-full shadow-lg rounded-xl" data-aos="zoom-in">
+                        <img src="assets/img/kursus/blog-1.jpg" width="100%" class="object-cover rounded-xl h-full" alt="">
+                    </div>
+
+                    <div class="lg:pl-7 pl-0 lg:pt-20 pt-10">
+                        <h1 class="font-semibold text-3xl" data-aos="fade-up" data-aos-delay="200">Belajar Memulai Framework Laravel 8 Pemula</h1>
+                        <div class="flex mt-4" data-aos="fade-up" data-aos-delay="400">
+                            <div class="flex mr-6">
+                                <img src="assets/img/icon/clock-gray.svg" width="20px" alt="clock">
+                                <p class="ml-1 font-light text-gray-500">Waktu Belajar : 15 Jam</p>
+                            </div>
+                            <div class="flex">
+                                <img src="assets/img/icon/book-gray.svg" width="20px" alt="book">
+                                <p class="ml-1 font-light text-gray-500">Jumlah Modul : 30 Pelajaran</p>
+                            </div>
+                        </div>
+                        <div class="flex-wrap mt-4">
+                            <span class="px-4 py-1 text-gray-500 m-1 bg-bluegray-200 rounded-md inline-block uppercase text-xs" data-aos="fade-left" data-aos-delay="600">Pemula</span>
+                            <span class="px-4 py-1 text-gray-500 m-1 bg-bluegray-200 rounded-md inline-block uppercase text-xs" data-aos="fade-left" data-aos-delay="800">Back-end</span>
+                            <span class="px-4 py-1 text-gray-500 m-1 bg-bluegray-200 rounded-md inline-block uppercase text-xs" data-aos="fade-left" data-aos-delay="1000">full-stack</span>
+                            <span class="px-4 py-1 text-gray-500 m-1 bg-bluegray-200 rounded-md inline-block uppercase text-xs" data-aos="fade-left" data-aos-delay="1200">Website</span>
+                            <span class="px-4 py-1 text-gray-500 m-1 bg-bluegray-200 rounded-md inline-block uppercase text-xs" data-aos="fade-left" data-aos-delay="1400">PHP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="lg:h-0 md:h-40"></div>
+        <section class="lg:mt-80 mt-96 lg:px-24 px-5">
+            <div class="grid grid-flow-row lg:grid-cols-3">
+                <div class="lg:col-span-2 ">
+                    <div class="rounded-xl" data-aos="fade-up">
+                        <video width="100%" controls poster="assets/img/about.jpg" class="rounded-xl">
+                            <source src="assets/img/coba.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="mt-10 font-light" data-aos="fade-up" data-aos-delay="200">
+                        
+                        <h1 class="text-2xl font-medium mb-3">Tentang Kelas Ini</h1>
+                        <p class="mb-3" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident alias, ipsum suscipit aut beatae, deleniti quisquam saepe enim amet eos aspernatur blanditiis adipisci doloribus labore corporis ad magnam, eveniet impedit accusamus velit! Perferendis, corporis fugit. Non consequuntur nobis in aliquam?</p>
+                        <ul class="list-disc list-outside pl-10">
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                        </ul>
+                        
+                        <h1 class="text-2xl font-medium mb-3 mt-8">Target & Sasaran Siswa</h1>
+                        <ul class="list-disc list-outside pl-10">
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est unde, doloribus porro repudiandae ullam fugit?</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                        </ul>
+
+                        <h1 class="text-2xl font-medium mb-3 mt-8">Tujuan Pembelajaran</h1>
+                        <ul class="list-disc list-outside pl-10">
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                        </ul>
+
+                        <h1 class="text-2xl font-medium mb-3 mt-8">Metode Pembelajaran</h1>
+                        <ul class="list-disc list-outside pl-10">
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                        </ul>
+
+                        <h1 class="text-2xl font-medium mb-3 mt-8">Fasilitas</h1>
+                        <ul class="list-disc list-outside pl-10">
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                        </ul>
+
+                        <h1 class="text-2xl font-medium mb-3 mt-8">Peralatan Belajar</h1>
+                        <ul class="list-disc list-outside pl-10">
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                        </ul>
+
+                        <h1 class="text-2xl font-medium mb-3 mt-8">Materi Belajar</h1>
+                        <ul class="list-disc list-outside pl-10">
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                        </ul>
+
+                        <h1 class="text-2xl font-medium mb-3 mt-8">Persyaratan Kelas</h1>
+                        <ul class="list-disc list-outside pl-10">
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, cum!</li>
+                        </ul>
+
+                        <h1 class="text-2xl font-medium mb-6 mt-8">Testimoni Para Lulusan</h1>
+                        <div class="grid lg:grid-cols-3 grid-flow-row">
+                            <!-- cards -->
+                            <div class="bg-white border-0 shadow-md rounded-xl mx-2 p-6 lg:mb-0 mb-5" data-aos="fade-up">
+                                <div class="rounded-full">
+                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="rounded-full object-cover w-24 h-24" alt="">
+                                </div>
+                                <div>
+                                    <p class="text-lg font-medium mt-3">Nabil Asrofi</p>
+                                    <p class="text-gray-500 mb-2">Freelancer</p>
+                                    <div class="flex mb-2">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                    </div>
+                                    <p>Pelajaran yang mudah dimengerti dengan materi yang lengkap serta metode pembelajaran yang efektif membuat saya lebih cepat memahami pelajaran</p>
+                                </div>
+                            </div>
+                            <div class="bg-white border-0 shadow-md rounded-xl mx-2 p-6 lg:mb-0 mb-5" data-aos="fade-up" data-aos-delay="200">
+                                <div class="rounded-full">
+                                    <img src="assets/img/testimonials/testimonials-2.jpg" class="rounded-full object-cover w-24 h-24" alt="">
+                                </div>
+                                <div>
+                                    <p class="text-lg font-medium mt-3">Sarah Natasya</p>
+                                    <p class="text-gray-500 mb-2">Pelajar</p>
+                                    <div class="flex mb-2">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                    </div>
+                                    <!-- <p class="font-serif font-extrabold text-6xl">"</p> -->
+                                    <p>Pelajaran yang mudah dimengerti dengan materi yang lengkap serta metode pembelajaran yang efektif membuat saya lebih cepat memahami pelajaran</p>
+                                </div>
+                            </div>
+                            <div class="bg-white border-0 shadow-md rounded-xl mx-2 p-6 lg:mb-0 mb-5" data-aos="fade-up" data-aos-delay="400">
+                                <div class="rounded-full">
+                                    <img src="assets/img/testimonials/testimonials-3.jpg" class="rounded-full object-cover w-24 h-24" alt="">
+                                </div>
+                                <div>
+                                    <p class="text-lg font-medium mt-3">Azizah Kurnia</p>
+                                    <p class="text-gray-500 mb-2">Mahasiswa</p>
+                                    <div class="flex mb-2">
+                                        <!-- <p class="font-serif font-extrabold text-6xl">"</p> -->
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                        <img src="assets/img/icon/star.svg" width="20px" alt="" class="mr-1">
+                                    </div>
+                                    <!-- <p class="font-serif font-extrabold text-6xl">"</p> -->
+                                    <p>Pelajaran yang mudah dimengerti dengan materi yang lengkap serta metode pembelajaran yang efektif membuat saya lebih cepat memahami pelajaran</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <h1 class="text-2xl font-medium mb-6 mt-8">Tim Penyusun</h1>
+                        <div class="grid lg:grid-cols-2 grid-flow-row m-auto">
+                            <!-- cards -->
+                                <div class=" bg-white shadow-md rounded-xl p-6 mx-2 lg:mb-0 mb-5" data-aos="fade-up">
+                                    <img src="assets/img/team/team-1.jpg" alt="" class="h-40 w-40 rounded-full mx-auto">
+                                    <div class="text-center mt-7">
+                                        <p class="font-medium text-xl">Wifqo Arova Syams</p>
+                                        <p class="text-gray-500">Software Engineer</p>
+                                    </div>
+                                </div>
+                                <div class="bg-white shadow-md rounded-xl p-6 mx-2 lg:mb-0 mb-5" data-aos="fade-up" data-aos-delay="200">
+                                    <img src="assets/img/team/team-3.jpg" alt="" class="h-40 w-40 rounded-full mx-auto">
+                                    <div class="text-center mt-7">
+                                        <p class="font-medium text-xl">Ivanka Alan Muhammad</p>
+                                        <p class="text-gray-500">UI/UX Enthusiast</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <div>
+                    <div class="bg-white lg:ml-10 mx-2 rounded-xl shadow-md p-5 h-auto" data-aos="fade-up" data-aos-delay="200">
+                        <p class="font-medium text-xl">Mari Berlangganan</p>
+                        <p class="mb-4 font-light">Dengan berlangganan anda akan memiliki akses belajar di semua kelas dalam jangka waktu terbatas</p>
+                        <a href="pricing.html" class="block py-2 border-2 border-bluegray-700 bg-bluegray-700 text-white text-center rounded-md hover:bg-bluegray-600 hover:border-bluegray-600 hover:shadow-md transition duration-300" >Berlangganan</a>
+                        <a href="single-kursus.html" class="py-2 block mt-2 border-2 border-bluegray-700  text-center rounded-md hover:bg-gray-200 hover:border-bluegray-600 transition duration-300">Lanjut Belajar</a>
+                        <hr class="my-5">
+                        <p class="mb-3 font-medium text-xl">Fasilitas Yang Didapatkan</p>
+                        <div>
+                            <div class="flex mb-2">
+                                <img src="assets/img/icon/play.svg" width="20px" alt="" class="mr-2">
+                                <p class="font-light">30 Video Pelajaran</p>
+                            </div>
+                            <div class="flex mb-2">
+                                <img src="assets/img/icon/book.svg" width="20px" alt="" class="mr-2">
+                                <p class="font-light">30 Modul Pelajaran</p>
+                            </div>
+                            <div class="flex mb-2">
+                                <img src="assets/img/icon/clock.svg" width="20px" alt="" class="mr-2">
+                                <p class="font-light">15 Jam Durasi Belajar</p>
+                            </div>
+                            <div class="flex mb-2">
+                                <img src="assets/img/icon/sertifikat.svg" width="20px" alt="" class="mr-2">
+                                <p class="font-light">Sertifikat Kelulusan</p>
+                            </div>
+                            <div class="flex mb-2">
+                                <img src="assets/img/icon/communication.svg" width="20px" alt="" class="mr-2">
+                                <p class="font-light">Forum Tanya Jawab</p>
+                            </div>
+                            <div class="flex mb-2" >
+                                <img src="assets/img/icon/catatan.svg" width="20px" alt="" class="mr-2">
+                                <p class="font-light">Catatan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-24">
+        <div class="lg:px-24 px-5 h-auto bg-bluegray-200">
+            <div class="grid lg:grid-cols-4 grid-flow-row">
+                <div class="pt-12">
+                    <ul>
+                        <h1 class="text-lg font-semibold text-bluegray-700 uppercase">Kelas</h1>
+                        <li class="pt-4 text-lg font-semibold text-gray-500"><a href="#">Android Developer</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">Front-End Web Developer</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">Back-End Web Developer</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"> <a href="#">UI/UX Designer</a></li>
+                    </ul>
+                </div>
+                <div class="pt-12">
+                    <ul>
+                        <h1 class="text-lg font-semibold text-bluegray-700 uppercase">Berlangganan</h1>
+                        <li class="pt-4 text-lg font-semibold text-gray-500"><a href="#">1 Bulan</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">3 Bulan</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">6 Bulan</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">1 Tahun</a></li>
+                    </ul>
+                </div>
+                <div class="pt-12">
+                    <ul>
+                        <h1 class="text-lg font-semibold text-bluegray-700 uppercase">Tentang Kami</h1>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">Layanan Bantuan</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">Kebijakan Privasi</a></li>
+                    </div>
+                    </ul>
+                <div class="pt-12">
+                    <ul>
+                        <h1 class="text-lg font-semibold text-bluegray-700 uppercase">Komunitas</h1>
+                        <li class="pt-4 text-lg font-semibold text-gray-500"><a href="#">WhatsApp</a></li>
+                        <li class="pt-2 text-lg font-semibold text-gray-500"><a href="#">Telegram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-10 flex items-center">
+                <img src="assets/img/onlearn.png" width="120px" alt="">
+                <h1 class="pl-4 font-regular text-lg">&copy; PT. Onlearn Sinau Bareng, 2021</h1>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/js/navbar.js"></script>
+    <script>
+        AOS.init({
+            disable: window.innerWidth < 770,
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
